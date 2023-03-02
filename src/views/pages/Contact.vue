@@ -1,4 +1,5 @@
 <template>
+   <div>
     <section class="probootstrap-cover overflow-hidden relative" style="background-image: url('/assets/images/bg_1.jpg');"
         data-stellar-background-ratio="0.5" id="section-home">
         <div class="overlay"></div>
@@ -80,11 +81,13 @@
         </section>
         <!-- END section -->
 
+   </div>
     
 </template>
 
 <script>
 export default {
-    name: 'Contact'
+    name: 'Contact',
+  
 }
 </script>

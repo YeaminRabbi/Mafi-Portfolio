@@ -1,29 +1,29 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/pages/Home.vue'
-import CityGuide from '../views/pages/CityGuide.vue'
-import Service from '../views/pages/Service.vue'
-import Contact from '../views/pages/Contact.vue'
+import HomeView from '../views/pages/Home.vue'
+import CityView from '../views/pages/City.vue'
+import ServiceView from '../views/pages/Service.vue'
+import ContactView from '../views/pages/Contact.vue'
 
 const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: HomeView
   },
   {
-    path: '/city-guide',
-    name: 'CityGuide',
-    component: CityGuide
+    path: '/city',
+    name: 'City',
+    component: CityView
   },
   {
     path: '/service',
     name: 'Service',
-    component: Service
+    component: ServiceView
   },
   {
     path: '/contact',
     name: 'Contact',
-    component: Contact
+    component: ContactView
   },
 
 

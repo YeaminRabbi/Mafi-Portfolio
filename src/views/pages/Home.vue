@@ -1,5 +1,6 @@
 <template>
-   <section class="probootstrap-cover overflow-hidden relative"  style="background-image: url('/assets/images/bg_1.jpg');" data-stellar-background-ratio="0.5"  id="section-home">
+   <div>
+    <section class="probootstrap-cover overflow-hidden relative"  style="background-image: url('/assets/images/bg_1.jpg');" data-stellar-background-ratio="0.5"  id="section-home">
           <div class="overlay"></div>
           <div class="container">
             <div class="row align-items-center">
@@ -63,17 +64,17 @@
                     <div class="row mb-5">
                       <div class="col-md">
                         <div class="form-group">
-                          <label for="probootstrap-date-departure">Departure</label>
+                          <label for="probootstrap-date-departure-1">Departure</label>
                           <div class="probootstrap-date-wrap">
-                            <input type="date" id="probootstrap-date-departure" class="form-control" placeholder="">
+                            <input type="date" id="probootstrap-date-departure-1" class="form-control" placeholder="">
                           </div>
                         </div>
                       </div>
                       <div class="col-md">
                         <div class="form-group">
-                          <label for="probootstrap-date-arrival">Arrival</label>
+                          <label for="probootstrap-date-arrival-1">Arrival</label>
                           <div class="probootstrap-date-wrap">
-                            <input type="date" id="probootstrap-date-arrival" class="form-control" placeholder="">
+                            <input type="date" id="probootstrap-date-arrival-1" class="form-control" placeholder="">
                           </div>
                         </div>
                       </div>
@@ -546,9 +547,11 @@
             </div>
           </div>
         </section>
+   </div>
 </template>
 <script>
 export default {
-    name : 'Home'
+    name : 'Home',
+
 }
 </script>

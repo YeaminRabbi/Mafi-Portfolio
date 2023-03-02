@@ -1,9 +1,11 @@
 <template>
-    <header-section></header-section>
+    <div>
+        <header-section></header-section>
 
-    <router-view></router-view>
+        <router-view></router-view>
 
-    <footer-section></footer-section>
+        <footer-section></footer-section>
+    </div>
 </template>
 
 <script>
@@ -12,13 +14,6 @@ import FooterSection from '../components/frontend/Footer.vue'
 export default {
     components: { HeaderSection, FooterSection },
     name: 'Master',
-    data() {
-        return {
-        };
-    },
-    mounted() {
-    },
-    methods: {
-    },
+
 }
 </script>

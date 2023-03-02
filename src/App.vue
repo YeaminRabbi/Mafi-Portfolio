@@ -1,5 +1,7 @@
 <template>
-  <master></master>
+  <div>
+    <master></master>
+  </div>
 </template>
 
 <script>

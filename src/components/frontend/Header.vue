@@ -13,7 +13,7 @@
                 </li>
 
                 <li class="nav-item" :class="{ active: $route.name === 'CityGuide' }">
-                    <router-link class="nav-link" :to="{ name: 'CityGuide' }">City Guide</router-link>
+                    <router-link class="nav-link" :to="{ name: 'City' }">City Guide</router-link>
                 </li>
 
                 <li class="nav-item" :class="{ active: $route.name === 'Service' }">
