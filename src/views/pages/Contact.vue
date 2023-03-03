@@ -86,8 +86,20 @@
 </template>
 
 <script>
+
+// import { contentWayPoint } from '../../../public/assets/js/main.js'
+// import $ from 'jquery';
+// import waypoints from 'waypoints/lib/noframework.waypoints';
 export default {
-    name: 'Contact',
+  name: 'Contact',
+  mounted() {
+
+    const script8 = document.createElement('script');
+    script8.src = './assets/js/main.js';
+    document.head.appendChild(script8);
+
+     window.scrollTo(0, 0);
+  }
   
 }
 </script>

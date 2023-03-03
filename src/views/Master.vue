@@ -14,6 +14,6 @@ import FooterSection from '../components/frontend/Footer.vue'
 export default {
     components: { HeaderSection, FooterSection },
     name: 'Master',
-
+    
 }
 </script>

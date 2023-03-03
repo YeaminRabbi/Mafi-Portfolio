@@ -111,6 +111,13 @@
 <script>
 export default {
     name: 'City',
-   
+   mounted() {
+
+    const script8 = document.createElement('script');
+    script8.src = './assets/js/main.js';
+     document.head.appendChild(script8);
+
+      window.scrollTo(0, 0);
+  }
 }
 </script>

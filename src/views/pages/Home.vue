@@ -20,6 +20,7 @@
 
                           <label for="id_label_single" style="width: 100%;">
                             <select class="js-example-basic-single js-states form-control" id="id_label_single" style="width: 100%;">
+                              <option value="" selected disabled>Select Country</option>
                               <option value="Australia">Australia</option>
                               <option value="Japan">Japan</option>
                               <option value="United States">United States</option>
@@ -43,6 +44,7 @@
                           <div class="probootstrap_select-wrap">
                             <label for="id_label_single2" style="width: 100%;">
                             <select class="js-example-basic-single js-states form-control" id="id_label_single2" style="width: 100%;">
+                              <option value="" selected disabled>Select Country</option>
                               <option value="Australia">Australia</option>
                               <option value="Japan">Japan</option>
                               <option value="United States">United States</option>
@@ -548,10 +550,26 @@
           </div>
         </section>
    </div>
+
+
+
+
+
+   
+   
 </template>
 <script>
 export default {
-    name : 'Home',
+  name: 'Home',
+  mounted() {
+    const script8 = document.createElement('script');
+    script8.src = './assets/js/main.js';
+    document.head.appendChild(script8);
+
+     window.scrollTo(0, 0);
+  }
+
+
 
 }
 </script>
